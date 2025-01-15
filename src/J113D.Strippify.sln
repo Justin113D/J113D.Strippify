@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J113D.Strippify", "J113D.Strippify\J113D.Strippify.csproj", "{1C5C4401-C01C-48F7-B5CA-661D3EED5B8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF86B613-57C7-4911-96FF-D1491C374198}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\LICENSE.txt = ..\LICENSE.txt
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C5C4401-C01C-48F7-B5CA-661D3EED5B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5C4401-C01C-48F7-B5CA-661D3EED5B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5C4401-C01C-48F7-B5CA-661D3EED5B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5C4401-C01C-48F7-B5CA-661D3EED5B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C44C5A16-5D59-4284-9050-74A7317D342A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿J113D.Strippify.TopologyException
+J113D.Strippify.TopologyException.TopologyException(string? message) -> void
+J113D.Strippify.TriangleStrippifier
+J113D.Strippify.TriangleStrippifier.RaiseTopoError.get -> bool
+J113D.Strippify.TriangleStrippifier.RaiseTopoError.set -> void
+J113D.Strippify.TriangleStrippifier.Strippify(int[]! triangleList) -> int[]![]!
+J113D.Strippify.TriangleStrippifier.Strippify<T>(T[]! triangleList) -> T[]![]!
+J113D.Strippify.TriangleStrippifier.Strippify<T>(T[]! triangleList, out J113D.Common.DistinctMap<T>! distinctMap) -> int[]![]!
+J113D.Strippify.TriangleStrippifier.StrippifyNoDegen<T>(T[]! triangleList, out bool[]! reversedStrips) -> T[]![]!
+J113D.Strippify.TriangleStrippifier.TriangleStrippifier(bool raiseTopoError = false) -> void
+static readonly J113D.Strippify.TriangleStrippifier.Global -> J113D.Strippify.TriangleStrippifier!
+static J113D.Strippify.TriangleStrippifier.JoinedStripEnumerator<T>(T[]![]! strips, bool[]? reversed) -> System.Collections.Generic.IEnumerable<T>!
+static J113D.Strippify.TriangleStrippifier.JoinStrips<T>(T[]![]! strips, bool[]? reversed) -> T[]!
